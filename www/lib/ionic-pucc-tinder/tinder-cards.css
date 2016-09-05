@@ -1,0 +1,34 @@
+td-cards {
+  display: block;
+  align-content: center;
+
+}
+
+td-card {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  margin-left:10px; 
+  margin-top: 80px;
+  width:300px;
+  height: 300px;
+  border-radius: 6px;
+}
+
+td-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 6px;
+}
+
+td-card .image {
+  position: relative;
+}
+
+.fade {
+  -webkit-transition: 0.2s opacity linear;
+  transition: 0.2s opacity linear;
+  opacity: 0;
+}
