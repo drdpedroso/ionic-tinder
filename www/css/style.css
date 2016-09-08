@@ -1,3 +1,28 @@
 .info {
   background-color: white;
+  padding: 5px;
+}
+
+.button-no {
+  margin: 0 auto;
+  background: red;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.button-yes {
+  margin: 0 auto;
+  background: green;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.button-super {
+  margin: 0 auto;
+  background: blue;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
