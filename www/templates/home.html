@@ -2,23 +2,11 @@
   <h1 class="title">Ionic Tinder</h1>
 </ion-header-bar>
 <ion-content>
-  <pre>{{coisa}}</pre>
   <td-cards>
-      <td-card>
+      <td-card ng-repeat="p in persons">
         <div class="image">
-          <img src="http://s2.glbimg.com/pXH2qoCQFOGFm6VmCJZvvL68m98=/e.glbimg.com/og/ed/f/original/2016/06/14/untitled-3_1.jpg"/>
+          <img ng-src="{{p.photo}}"/>
         </div>
       </td-card>
-    </div>
-    <td-card>
-      <div class="image">
-        <img src="http://s2.glbimg.com/pXH2qoCQFOGFm6VmCJZvvL68m98=/e.glbimg.com/og/ed/f/original/2016/06/14/untitled-3_1.jpg"/>
-      </div>
-    </td-card>
-    <td-card>
-      <div class="image">
-        <img src="http://s2.glbimg.com/pXH2qoCQFOGFm6VmCJZvvL68m98=/e.glbimg.com/og/ed/f/original/2016/06/14/untitled-3_1.jpg"/>
-      </div>
-    </td-card>
   </td-cards>
 </ion-content>

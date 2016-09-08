@@ -1,7 +1,6 @@
 td-cards {
   display: block;
   align-content: center;
-
 }
 
 td-card {
@@ -9,8 +8,8 @@ td-card {
   top:0;
   bottom: 0;
   left: 0;
-  right: 0; 
-  margin-left:10px; 
+  right: 0;
+  margin:auto; 
   margin-top: 80px;
   width:300px;
   height: 300px;
