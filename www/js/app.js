@@ -34,6 +34,7 @@ angular.module('starter', ['ionic', 'tinder.cards', 'controllers'])
   .state('details', {
     url: '/details',
     templateUrl: 'templates/details.html',
+    controller: 'DetailsController',
     params: {
       person: null
     }

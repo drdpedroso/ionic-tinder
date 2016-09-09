@@ -16,3 +16,9 @@ angular.module('controllers', [])
     }
 
   })
+
+  .controller('DetailsController', function($scope, $stateParams){
+
+      $scope.person = $stateParams.person;
+
+  })
