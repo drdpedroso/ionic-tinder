@@ -31,5 +31,13 @@ angular.module('starter', ['ionic', 'tinder.cards', 'controllers'])
     controller: 'HomeController'
   })
 
+  .state('details', {
+    url: '/details',
+    templateUrl: 'templates/details.html',
+    params: {
+      person: null
+    }
+  })
+
   $urlRouterProvider.otherwise('/home');
 });

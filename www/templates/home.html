@@ -4,7 +4,7 @@
 
 <ion-content>
   <td-cards>
-      <td-card ng-repeat="p in persons">
+      <td-card ng-repeat="p in persons" ng-click="seeDetails(p)">
         <div class="image">
           <img ng-src="{{p.photo}}"/>
           <div class="info">{{p.name}}, {{p.age}}</div>
@@ -21,6 +21,6 @@
     <div class="button-super"></div>
   </div>
   <div class="col">
-    <div class="button-yes"></div>
+    <div class="button-yes" on-touch="swipeCard()"></div>
   </div>
 </div>
