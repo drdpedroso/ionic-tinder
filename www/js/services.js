@@ -3,7 +3,7 @@ angular.module('services', [])
 .service('UserService', function($http){
 
   var getPersons = function(){
-    return $http.get('http://localhost:9000/api/get_users');
+    return $http.get('https://pucc-api.herokuapp.com/api/get_persons');
   }
 
   return {
